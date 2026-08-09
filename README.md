@@ -24,7 +24,7 @@ Les profils de plug-ins partagés utilisent la couche `suggested`. La couche `us
 1. créer une branche ;
 2. ajouter un nouveau dossier de version, sans remplacer une version existante ;
 3. lancer `python scripts/update_manifest.py` ;
-4. lancer `python scripts/validate_library.py` ;
+4. installer `requirements-validation.txt`, puis lancer `python scripts/validate_library.py` et `python scripts/validate_schemas.py` ;
 5. ouvrir une pull request avec le matériel et la procédure de test réellement utilisés.
 
 Le Hub télécharge uniquement le manifeste et les JSON qu'il référence. Les scripts de ce dépôt servent à la maintenance et ne sont jamais téléchargés ni exécutés par l'application.
