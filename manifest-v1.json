@@ -1,0 +1,32 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-08-09T16:48:03Z",
+  "profiles": [
+    {
+      "id": "faderfox.ec4",
+      "version": "1.0.0",
+      "status": "verified",
+      "path": "controllers/faderfox/ec4/1.0.0/profile.json",
+      "sha256": "946DB721DC66B49AA061AF8353C207E5B363074A84BDAAF4DFCC4E82177BF73A",
+      "minimum_hub_version": "0.1.0"
+    },
+    {
+      "id": "generic.midi.16",
+      "version": "1.0.0",
+      "status": "builtin",
+      "path": "controllers/generic/midi-16/1.0.0/profile.json",
+      "sha256": "7C9FD78766FE40164DA7327471DCF945E34FFE19E4DC8682E5DF4A37A9A5AF59",
+      "minimum_hub_version": "0.1.0"
+    }
+  ],
+  "plugin_profiles": [
+    {
+      "id": "example.plugin",
+      "version": "1.0.0",
+      "status": "community",
+      "path": "plugin-profiles/example/plugin/1.0.0/profile.json",
+      "sha256": "B6BA1222444DC466702F3EA9596B9B04B799D6D739C479CE9C46B3F624B509B1",
+      "minimum_hub_version": "0.1.0"
+    }
+  ]
+}
